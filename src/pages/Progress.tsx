@@ -207,22 +207,6 @@ const Progress = () => {
             })}
           </div>
         </div>
-
-        {/* Recent Activity */}
-        <div className="bg-white rounded-xl shadow-lg p-6">
-          <h3 className="text-xl font-semibold text-gray-800 mb-6">Recent Activity</h3>
-          <div className="space-y-4">
-            {recentActivity.map((item, index) => (
-              <div key={index} className="flex items-center gap-4 p-3 bg-gray-50 rounded-lg">
-                <div className="w-3 h-3 bg-indigo-600 rounded-full flex-shrink-0"></div>
-                <div className="flex-1">
-                  <p className="text-gray-800 text-lg">{item.activity}</p>
-                  <p className="text-gray-500 text-base">{item.date}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
       </main>
     </div>
   );

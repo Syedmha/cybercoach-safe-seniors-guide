@@ -17,7 +17,6 @@ const Index = () => {
             />
             <div>
               <h1 className="text-3xl md:text-4xl font-bold text-center md:text-left">CyberCoach</h1>
-              <p className="text-xl text-center md:text-left mt-1 text-indigo-100">Your Digital Safety Companion</p>
             </div>
           </div>
         </div>
@@ -74,20 +73,6 @@ const Index = () => {
                 Track your learning journey
               </p>
             </div>
-          </Link>
-        </div>
-
-        {/* Quick Start Section */}
-        <div className="bg-indigo-600 rounded-xl p-8 text-white text-center">
-          <h3 className="text-2xl font-semibold mb-4">Ready to Get Started?</h3>
-          <p className="text-lg mb-6 text-indigo-100">
-            Begin your cyber safety journey with our beginner-friendly quiz
-          </p>
-          <Link 
-            to="/quiz" 
-            className="inline-block bg-white text-indigo-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-50 transition-colors duration-200"
-          >
-            Start Your First Quiz
           </Link>
         </div>
       </main>
