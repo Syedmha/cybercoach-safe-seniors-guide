@@ -8,9 +8,18 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-white">
       {/* Header */}
       <header className="bg-indigo-600 text-white py-6 px-4 shadow-lg">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-4xl font-bold text-center">CyberCoach</h1>
-          <p className="text-xl text-center mt-2 text-indigo-100">Your Digital Safety Companion</p>
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row md:items-center md:justify-start">
+          <div className="flex items-center justify-center md:justify-start">
+            <img 
+              src="/lovable-uploads/0e075f78-7381-4b25-8c4d-bc86966d6221.png" 
+              alt="CyberCoach Logo" 
+              className="w-12 h-12 mr-3"
+            />
+            <div>
+              <h1 className="text-3xl md:text-4xl font-bold text-center md:text-left">CyberCoach</h1>
+              <p className="text-xl text-center md:text-left mt-1 text-indigo-100">Your Digital Safety Companion</p>
+            </div>
+          </div>
         </div>
       </header>
 
